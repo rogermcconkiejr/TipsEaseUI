@@ -1,1 +1,65 @@
+header {
+    border-bottom: 2px dashed black;
+    margin: 20px 0 0 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    
+  
+    @media @mobile {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  
+    h1 {
+      font-size: 4rem;
 
+  
+      @media @mobile {
+        margin-bottom: 20px;
+      }
+    }
+  
+    nav {
+      margin-left: 62px;
+  
+      @media @mobile {
+        margin-left: 0;
+        display:flex;
+        justify-content:space-evenly;
+        
+      }
+  
+      a {
+        margin-left: 20px;
+        font-size: 1.8rem;
+        text-decoration:none;
+        color:black;
+
+      }
+  
+      .first-anchor {
+        margin-left: 0;
+      }
+    }
+  }
+
+  #landing-image {
+
+    .landing-image-image{
+    background-image: url('../img/waiter.jpg');
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+  }
+
+  .hero-text {
+      text-align: center;
+      position: absolute;
+      width: 100%;
+
+  }
