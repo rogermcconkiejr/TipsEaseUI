@@ -206,8 +206,66 @@ header nav .first-anchor {
   font-size: 4rem;
   font-family: "Ubuntu", sans-serif;
   color: #f3e367;
-  margin-left: 40px;
+  margin-left: 2%;
   margin-top: 10px;
+}
+#landing-image .landing-image-text .p2 {
+  text-align: right;
+  margin-right: 2%;
+}
+#landing-image .landing-image-text .button-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -180px;
+}
+#landing-image .landing-image-text .button-div button {
+  width: 200px;
+  height: 40px;
+  background: #f3e367;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.7rem;
+  border-radius: 10px;
+}
+#landing-image .landing-image-image {
+  background-image: url('../img/waiter.jpg');
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 25px;
+}
+#landing-image .landing-image-text {
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  color: #f3e367;
+}
+#landing-image .landing-image-text p {
+  font-size: 4rem;
+  font-family: "Ubuntu", sans-serif;
+  color: #f3e367;
+  margin-left: 2%;
+  margin-top: 10px;
+}
+#landing-image .landing-image-text .p2 {
+  text-align: right;
+  margin-right: 2%;
+}
+#landing-image .landing-image-text .button-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: -180px;
+}
+#landing-image .landing-image-text .button-div button {
+  width: 200px;
+  height: 40px;
+  background: #f3e367;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.7rem;
+  border-radius: 10px;
 }
 .headercontent {
   display: flex;
