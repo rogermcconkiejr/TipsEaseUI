@@ -1,0 +1,229 @@
+#landing-image {
+
+    .landing-image-image{
+    background-image: url('../img/waiter.jpg');
+    height: 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom:25px;
+    }//landing-image-image ends here
+
+    .landing-image-text {
+        text-align: left;
+        position: absolute;
+        width: 100%;
+        color:@yellow;
+
+        
+        p{
+            font-size:4rem;
+            font-family:@font1;
+            color:@yellow;
+            margin-left:2%;
+            margin-top:10px;
+
+            @media @tablet{
+            font-size:2.6rem;
+            }
+            @media @mobile{
+            font-size:2rem;
+            }
+     
+        }//p ends here
+        .p2{
+            text-align:right;
+            margin-right:2%;
+        }//p2 ends here 
+        .button-div{
+            display:flex;
+            justify-content:center;
+            position:relative;
+            bottom:-220px;
+            
+        
+
+            button{
+                width:200px;
+                height:40px;
+                background:@yellow;
+                font-family:@font2;
+                font-size:1.7rem;
+                border-radius:10px;
+                &:hover {background:black;
+                        color:@yellow;}
+            }//button ends here
+        }//button-div ends here
+    }//Landing image-text ends here
+  }//Landing image ends here
+
+.headercontent{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    h2{
+        font-size:3rem;
+        font-family: @font1;
+        border-bottom: 2px solid @grey;
+        padding-bottom: 25px;
+        margin-bottom:25px;
+        color: @yellow;
+        
+        @media @mobile{
+            font-size:2rem;
+            text-align:center;
+        }
+    }//h2 ends here
+
+    p {
+      margin-left:10px;
+      margin-right:10px;
+      margin-bottom:25px;
+      font-family: @font2;
+
+      @media @tablet{
+          font-size:1.6rem;
+      }
+      @media @mobile{
+          font-size:1.3rem;
+      }
+    }//p ends here
+}//header content ends here
+
+.content-section{
+    display:flex;
+    flex-direction:row;
+    border-top:1px solid @grey;
+    border-bottom:1px solid @grey;
+
+    @media @mobile{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+
+    .text-content{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+
+        h2{
+            font-size:2.5rem;
+            margin-left:25px;
+            color:@yellow;
+            font-family:@font1;
+            padding:10px;
+            margin-bottom:10px;
+
+            @media @mobile{
+                font-size:2rem;
+                margin-left:0px;
+                display:flex;
+                justify-content:center;
+            }
+        }//h2 ends here
+        p{
+            margin-left:20px;
+            margin-right:20px;
+            color:white;
+            font-family:@font2;
+
+            @media @tablet{
+                font-size:1.6rem;
+            }
+            @media @mobile{
+                font-size:1.3rem;
+                margin-bottom:10px;
+            }
+        }//p ends here
+    }//Text-content ends here
+
+    .img-content1 {
+        width:200%;
+        @media @tablet {
+            margin:10px;
+            position:relative;
+            bottom: -10px;
+        }
+        @media @mobile {
+            width:100%;
+            margin:0px;
+        }
+    }//img-content1 ends here
+    .text-content2{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+
+        h2{
+            font-size:2.5rem;
+            margin-left:25px;
+            color:@yellow;
+            font-family:@font1;
+            padding:10px;
+            margin-bottom:10px;
+
+            @media @mobile{
+                font-size:2rem;
+                margin-left:0px;
+                margin-top:10px;
+                display:flex;
+                justify-content:center;
+            }
+        }//h2 ends here
+        p{
+            margin-left:20px;
+            margin-right:20px;
+            color:white;
+            font-family:@font2;
+
+            @media @mobile{
+                font-size:1.3rem;
+            }
+        }//p ends here
+        .button-div2{
+            display:flex;
+            justify-content:center;
+
+            @media @mobile{
+                margin-bottom:10px;
+            }
+
+            button{
+                width:200px;
+                height:40px;
+                background:@yellow;
+                font-family:@font2;
+                font-size:1.7rem;
+                border-radius:10px;
+                margin-top:10px;
+                &:hover {background:black;
+                    color:@yellow;}
+                @media @tablet {
+                    margin-bottom:10px;
+                }
+                @media @mobile {
+                    margin-bottom:10px;
+                }
+            }//button ends here
+        }//button-div2 ends here
+    }//text-content2 ends here
+    .img-content2 {
+        width:200%;
+        
+        @media @tablet{
+            margin: 10px;
+            position:relative;
+            bottom:-10px;
+        }
+        @media @mobile{
+            display:none;
+        }
+    }//img-content2 ends here
+}//content-section ends here
+
+
+  
+
