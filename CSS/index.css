@@ -224,7 +224,7 @@ footer .social-content .fa:hover {
 }
 @media (max-width: 500px) {
   footer .social-content .fa {
-    padding: 10px;
+    padding: 5px;
   }
 }
 footer .privacy p {
@@ -275,6 +275,11 @@ footer .privacy .p5 {
   color: #f3e367;
   margin-left: 2%;
   margin-top: 10px;
+}
+@media (max-width: 900px) {
+  #landing-image .landing-image-text p {
+    font-size: 2.6rem;
+  }
 }
 @media (max-width: 500px) {
   #landing-image .landing-image-text p {
@@ -329,6 +334,11 @@ footer .privacy .p5 {
   margin-bottom: 25px;
   font-family: "Varela Round", sans-serif;
 }
+@media (max-width: 900px) {
+  .headercontent p {
+    font-size: 1.6rem;
+  }
+}
 @media (max-width: 500px) {
   .headercontent p {
     font-size: 1.3rem;
@@ -373,6 +383,11 @@ footer .privacy .p5 {
   color: white;
   font-family: "Varela Round", sans-serif;
 }
+@media (max-width: 900px) {
+  .content-section .text-content p {
+    font-size: 1.6rem;
+  }
+}
 @media (max-width: 500px) {
   .content-section .text-content p {
     font-size: 1.3rem;
@@ -382,9 +397,17 @@ footer .privacy .p5 {
 .content-section .img-content1 {
   width: 200%;
 }
+@media (max-width: 900px) {
+  .content-section .img-content1 {
+    margin: 10px;
+    position: relative;
+    bottom: -10px;
+  }
+}
 @media (max-width: 500px) {
   .content-section .img-content1 {
     width: 100%;
+    margin: 0px;
   }
 }
 .content-section .text-content2 {
@@ -442,6 +465,11 @@ footer .privacy .p5 {
   background: black;
   color: #f3e367;
 }
+@media (max-width: 900px) {
+  .content-section .text-content2 .button-div2 button {
+    margin-bottom: 10px;
+  }
+}
 @media (max-width: 500px) {
   .content-section .text-content2 .button-div2 button {
     margin-bottom: 10px;
@@ -449,6 +477,13 @@ footer .privacy .p5 {
 }
 .content-section .img-content2 {
   width: 200%;
+}
+@media (max-width: 900px) {
+  .content-section .img-content2 {
+    margin: 10px;
+    position: relative;
+    bottom: -10px;
+  }
 }
 @media (max-width: 500px) {
   .content-section .img-content2 {
