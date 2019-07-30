@@ -222,6 +222,11 @@ footer .social-content .fa {
 footer .social-content .fa:hover {
   color: #c9c9c9;
 }
+@media (max-width: 500px) {
+  footer .social-content .fa {
+    padding: 10px;
+  }
+}
 footer .privacy p {
   font-family: "Ubuntu", sans-serif;
   padding-right: 20px;
@@ -231,6 +236,11 @@ footer .privacy p {
   text-align: right;
   text-decoration: none;
   color: #f3e367;
+}
+@media (max-width: 500px) {
+  footer .privacy p {
+    padding-left: 0px;
+  }
 }
 footer .privacy p a {
   text-decoration: none;
@@ -363,6 +373,12 @@ footer .privacy .p5 {
   color: white;
   font-family: "Varela Round", sans-serif;
 }
+@media (max-width: 500px) {
+  .content-section .text-content p {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+}
 .content-section .img-content1 {
   width: 200%;
 }
@@ -399,6 +415,11 @@ footer .privacy .p5 {
   color: white;
   font-family: "Varela Round", sans-serif;
 }
+@media (max-width: 500px) {
+  .content-section .text-content2 p {
+    font-size: 1.3rem;
+  }
+}
 .content-section .text-content2 .button-div2 {
   display: flex;
   justify-content: center;
@@ -421,9 +442,13 @@ footer .privacy .p5 {
   background: black;
   color: #f3e367;
 }
+@media (max-width: 500px) {
+  .content-section .text-content2 .button-div2 button {
+    margin-bottom: 10px;
+  }
+}
 .content-section .img-content2 {
-  width: 50%;
-  margin: 15px;
+  width: 200%;
 }
 @media (max-width: 500px) {
   .content-section .img-content2 {

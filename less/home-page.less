@@ -121,6 +121,11 @@
             margin-right:20px;
             color:white;
             font-family:@font2;
+
+            @media @mobile{
+                font-size:1.3rem;
+                margin-bottom:10px;
+            }
         }
     }
 
@@ -157,6 +162,10 @@
             margin-right:20px;
             color:white;
             font-family:@font2;
+
+            @media @mobile{
+                font-size:1.3rem;
+            }
         }
         .button-div2{
             display:flex;
@@ -176,12 +185,16 @@
                 margin-top:10px;
                 &:hover {background:black;
                     color:@yellow;}
+
+                @media @mobile {
+                    margin-bottom:10px;
+                }
             }
         }
     }
     .img-content2 {
-        width:50%;
-        margin:15px;
+        width:200%;
+        
 
         @media @mobile{
             display:none;
