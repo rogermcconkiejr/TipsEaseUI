@@ -122,7 +122,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* Other Code */
 html {
   font-size: 62.5%;
   background: black;
@@ -201,9 +200,6 @@ header nav a:hover {
     position: relative;
     right: -8px;
   }
-}
-header nav .first-anchor {
-  margin-left: 0;
 }
 footer {
   display: flex;
