@@ -161,6 +161,9 @@ header h1 a {
   color: #f3e367;
   text-decoration: none;
 }
+header h1 a:hover {
+  color: #c9c9c9;
+}
 @media (max-width: 500px) {
   header h1 a {
     margin-bottom: 20px;
@@ -182,8 +185,11 @@ header nav a {
   margin-right: 30px;
   font-size: 1.8rem;
   text-decoration: none;
-  color: #c9c9c9;
+  color: #f3e367;
   font-family: "Varela Round", sans-serif;
+}
+header nav a:hover {
+  color: #c9c9c9;
 }
 header nav .first-anchor {
   margin-left: 0;
@@ -202,15 +208,8 @@ footer .social-content .fa {
   margin: 5px 2px;
   color: #f3e367;
 }
-footer .copyright p {
-  font-family: "Ubuntu", sans-serif;
-  padding: 20px;
-  font-size: 1.3rem;
-  width: 100px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  color: #f3e367;
+footer .social-content .fa:hover {
+  color: #c9c9c9;
 }
 footer .privacy p {
   font-family: "Ubuntu", sans-serif;
@@ -227,6 +226,9 @@ footer .privacy p a {
   color: #f3e367;
   font-family: "Ubuntu", sans-serif;
   font-size: 1.3rem;
+}
+footer .privacy p a:hover {
+  color: #c9c9c9;
 }
 footer .privacy .p5 {
   padding-top: 15px;
@@ -270,6 +272,10 @@ footer .privacy .p5 {
   font-family: "Varela Round", sans-serif;
   font-size: 1.7rem;
   border-radius: 10px;
+}
+#landing-image .landing-image-text .button-div button:hover {
+  background: black;
+  color: #f3e367;
 }
 .headercontent {
   display: flex;
@@ -350,6 +356,10 @@ footer .privacy .p5 {
   font-size: 1.7rem;
   border-radius: 10px;
   margin-top: 10px;
+}
+.content-section .text-content2 .button-div2 button:hover {
+  background: black;
+  color: #f3e367;
 }
 .content-section .img-content2 {
   width: 50%;
