@@ -188,10 +188,53 @@ header nav a {
 header nav .first-anchor {
   margin-left: 0;
 }
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .social-content .fa {
+  padding: 20px;
+  font-size: 3rem;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #f3e367;
+}
+footer .copyright p {
+  font-family: "Ubuntu", sans-serif;
+  padding: 20px;
+  font-size: 1.3rem;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: #f3e367;
+}
+footer .privacy p {
+  font-family: "Ubuntu", sans-serif;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 1.3rem;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: #f3e367;
+}
+footer .privacy p a {
+  text-decoration: none;
+  color: #f3e367;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.3rem;
+}
+footer .privacy .p5 {
+  padding-top: 15px;
+}
 #landing-image .landing-image-image {
   background-image: url('../img/waiter.jpg');
-  height: 650px;
-  background-position: center;
+  height: 450px;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -218,7 +261,7 @@ header nav .first-anchor {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: -180px;
+  bottom: -220px;
 }
 #landing-image .landing-image-text .button-div button {
   width: 200px;
@@ -236,7 +279,7 @@ header nav .first-anchor {
 }
 .headercontent h2 {
   font-size: 3rem;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   border-bottom: 2px solid #c9c9c9;
   padding-bottom: 25px;
   margin-bottom: 25px;
@@ -246,6 +289,7 @@ header nav .first-anchor {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 25px;
+  font-family: "Varela Round", sans-serif;
 }
 .content-section {
   display: flex;
@@ -262,6 +306,7 @@ header nav .first-anchor {
   font-size: 2.5rem;
   margin-left: 25px;
   color: #f3e367;
+  font-family: "Ubuntu", sans-serif;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -269,6 +314,7 @@ header nav .first-anchor {
   margin-left: 20px;
   margin-right: 20px;
   color: white;
+  font-family: "Varela Round", sans-serif;
 }
 .content-section .img-content1 {
   width: 200%;
@@ -282,6 +328,7 @@ header nav .first-anchor {
   font-size: 2.5rem;
   margin-left: 25px;
   color: #f3e367;
+  font-family: "Ubuntu", sans-serif;
   padding: 10px;
   margin-bottom: 10px;
 }
@@ -289,6 +336,7 @@ header nav .first-anchor {
   margin-left: 20px;
   margin-right: 20px;
   color: white;
+  font-family: "Varela Round", sans-serif;
 }
 .content-section .text-content2 .button-div2 {
   display: flex;
