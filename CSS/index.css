@@ -167,6 +167,7 @@ header h1 a:hover {
 @media (max-width: 500px) {
   header h1 a {
     margin-bottom: 20px;
+    margin-left: 0px;
   }
 }
 header nav {
@@ -190,6 +191,16 @@ header nav a {
 }
 header nav a:hover {
   color: #c9c9c9;
+}
+@media (max-width: 500px) {
+  header nav a {
+    margin-left: 0;
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: -8px;
+  }
 }
 header nav .first-anchor {
   margin-left: 0;
@@ -255,6 +266,11 @@ footer .privacy .p5 {
   margin-left: 2%;
   margin-top: 10px;
 }
+@media (max-width: 500px) {
+  #landing-image .landing-image-text p {
+    font-size: 2rem;
+  }
+}
 #landing-image .landing-image-text .p2 {
   text-align: right;
   margin-right: 2%;
@@ -291,17 +307,34 @@ footer .privacy .p5 {
   margin-bottom: 25px;
   color: #f3e367;
 }
+@media (max-width: 500px) {
+  .headercontent h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
 .headercontent p {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 25px;
   font-family: "Varela Round", sans-serif;
 }
+@media (max-width: 500px) {
+  .headercontent p {
+    font-size: 1.3rem;
+  }
+}
 .content-section {
   display: flex;
   flex-direction: row;
   border-top: 1px solid #c9c9c9;
   border-bottom: 1px solid #c9c9c9;
+}
+@media (max-width: 500px) {
+  .content-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
 .content-section .text-content {
   display: flex;
@@ -316,6 +349,14 @@ footer .privacy .p5 {
   padding: 10px;
   margin-bottom: 10px;
 }
+@media (max-width: 500px) {
+  .content-section .text-content h2 {
+    font-size: 2rem;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+}
 .content-section .text-content p {
   margin-left: 20px;
   margin-right: 20px;
@@ -324,6 +365,11 @@ footer .privacy .p5 {
 }
 .content-section .img-content1 {
   width: 200%;
+}
+@media (max-width: 500px) {
+  .content-section .img-content1 {
+    width: 100%;
+  }
 }
 .content-section .text-content2 {
   display: flex;
@@ -338,6 +384,15 @@ footer .privacy .p5 {
   padding: 10px;
   margin-bottom: 10px;
 }
+@media (max-width: 500px) {
+  .content-section .text-content2 h2 {
+    font-size: 2rem;
+    margin-left: 0px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+}
 .content-section .text-content2 p {
   margin-left: 20px;
   margin-right: 20px;
@@ -347,6 +402,11 @@ footer .privacy .p5 {
 .content-section .text-content2 .button-div2 {
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .content-section .text-content2 .button-div2 {
+    margin-bottom: 10px;
+  }
 }
 .content-section .text-content2 .button-div2 button {
   width: 200px;
@@ -364,4 +424,9 @@ footer .privacy .p5 {
 .content-section .img-content2 {
   width: 50%;
   margin: 15px;
+}
+@media (max-width: 500px) {
+  .content-section .img-content2 {
+    display: none;
+  }
 }

@@ -16,13 +16,16 @@
         width: 100%;
         color:@yellow;
         
-
         p{
             font-size:4rem;
             font-family:@font1;
             color:@yellow;
             margin-left:2%;
             margin-top:10px;
+
+            @media @mobile{
+            font-size:2rem;
+            }
         }
         .p2{
             text-align:right;
@@ -63,12 +66,22 @@
         padding-bottom: 25px;
         margin-bottom:25px;
         color: @yellow;
+
+        @media @mobile{
+            font-size:2rem;
+            text-align:center;
+        }
     }
+
     p {
       margin-left:10px;
       margin-right:10px;
       margin-bottom:25px;
       font-family: @font2;
+
+      @media @mobile{
+          font-size:1.3rem;
+      }
     }
 }
 
@@ -77,6 +90,11 @@
     flex-direction:row;
     border-top:1px solid @grey;
     border-bottom:1px solid @grey;
+
+    @media @mobile{
+        display:flex;
+        flex-direction:column-reverse;
+    }
 
     .text-content{
         display:flex;
@@ -90,6 +108,13 @@
             font-family:@font1;
             padding:10px;
             margin-bottom:10px;
+
+            @media @mobile{
+                font-size:2rem;
+                margin-left:0px;
+                display:flex;
+                justify-content:center;
+            }
         }
         p{
             margin-left:20px;
@@ -102,6 +127,9 @@
     .img-content1 {
         width:200%;
         
+        @media @mobile {
+            width:100%;
+        }
     }
     .text-content2{
         display:flex;
@@ -115,6 +143,14 @@
             font-family:@font1;
             padding:10px;
             margin-bottom:10px;
+
+            @media @mobile{
+                font-size:2rem;
+                margin-left:0px;
+                margin-top:10px;
+                display:flex;
+                justify-content:center;
+            }
         }
         p{
             margin-left:20px;
@@ -125,6 +161,10 @@
         .button-div2{
             display:flex;
             justify-content:center;
+
+            @media @mobile{
+                margin-bottom:10px;
+            }
 
             button{
                 width:200px;
@@ -142,6 +182,10 @@
     .img-content2 {
         width:50%;
         margin:15px;
+
+        @media @mobile{
+            display:none;
+        }
     }
 }
 
