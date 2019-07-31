@@ -504,72 +504,168 @@ footer .privacy .p5 {
   font-size: 4rem;
   font-family: "Ubuntu", sans-serif;
   border-bottom: 2px solid #f3e367;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 .aboutContent {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .aboutContent h4 {
-  font-size: 1.6rem;
+  font-size: 2.5rem;
+  font-family: "Varela Round", sans-serif;
+}
+.aboutContent h5 {
+  font-size: 1.9rem;
+  font-family: "Varela Round", sans-serif;
 }
 .aboutContent .personOne {
-  border: 1px solid #f3e367;
   width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.aboutContent .personOne h4 {
+.aboutContent .personOne .text-personOne h4 {
   color: #f3e367;
 }
-.aboutContent .personOne h5 {
+.aboutContent .personOne .text-personOne h5 {
   color: #f3e367;
+  display: flex;
+  justify-content: center;
+}
+.aboutContent .personOne .img-personOne img {
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  height: 350px;
+  position: relative;
+  right: -10%;
 }
 .aboutContent .personTwo {
-  border: 1px solid #f3e367;
   width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .aboutContent .personTwo h4 {
   color: #f3e367;
+  display: flex;
+  justify-content: center;
 }
 .aboutContent .personTwo h5 {
   color: #f3e367;
+  display: flex;
+  justify-content: center;
+}
+.aboutContent .personTwo .img-personTwo img {
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  height: 350px;
+  position: relative;
+  right: -10%;
 }
 .aboutContent .personThree {
-  border: 1px solid #f3e367;
   width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .aboutContent .personThree h4 {
   color: #f3e367;
+  display: flex;
+  justify-content: center;
 }
 .aboutContent .personThree h5 {
   color: #f3e367;
+  display: flex;
+  justify-content: center;
+}
+.aboutContent .personThree .img-personThree img {
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  height: 350px;
+  position: relative;
+  right: -10%;
 }
 .aboutContent .personFour {
-  border: 1px solid #f3e367;
   width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .aboutContent .personFour h4 {
   color: #f3e367;
+  display: flex;
+  justify-content: center;
 }
 .aboutContent .personFour h5 {
   color: #f3e367;
+  display: flex;
+  justify-content: center;
+}
+.aboutContent .personFour .img-personFour img {
+  width: 80%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  height: 350px;
+  position: relative;
+  right: -10%;
 }
 .aboutContent .personFive {
-  border: 1px solid #f3e367;
   width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .aboutContent .personFive h4 {
   color: #f3e367;
 }
 .aboutContent .personFive h5 {
   color: #f3e367;
+  display: flex;
+  justify-content: center;
+}
+.aboutContent .personFive .img-personFive img {
+  width: 90%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  height: 350px;
+  position: relative;
+  right: -6%;
 }
 .aboutContent .personSix {
-  border: 1px solid #f3e367;
   width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .aboutContent .personSix h4 {
   color: #f3e367;
 }
 .aboutContent .personSix h5 {
+  display: flex;
+  justify-content: center;
   color: #f3e367;
+}
+.aboutContent .personSix .img-personSix img {
+  width: 90%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  height: 350px;
+  position: relative;
+  right: -6%;
 }
