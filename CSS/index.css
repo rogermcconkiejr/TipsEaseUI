@@ -561,23 +561,16 @@ footer .privacy .p5 {
   justify-content: center;
 }
 .aboutContent .personOne .img-personOne img {
-  width: 80%;
+  width: 350px;
   border-radius: 50%;
   margin-bottom: 10px;
   margin-top: 30px;
   height: 350px;
-  position: relative;
-  right: -10%;
 }
 @media (max-width: 900px) {
   .aboutContent .personOne .img-personOne img {
-    height: 300px;
-  }
-}
-@media (max-width: 500px) {
-  .aboutContent .personOne .img-personOne img {
-    position: relative;
-    right: -11%;
+    height: 220px;
+    width: 220px;
   }
 }
 .aboutContent .personTwo {
@@ -603,23 +596,16 @@ footer .privacy .p5 {
   justify-content: center;
 }
 .aboutContent .personTwo .img-personTwo img {
-  width: 80%;
+  width: 350px;
   border-radius: 50%;
   margin-bottom: 10px;
   margin-top: 30px;
   height: 350px;
-  position: relative;
-  right: -10%;
 }
 @media (max-width: 900px) {
   .aboutContent .personTwo .img-personTwo img {
-    height: 300px;
-  }
-}
-@media (max-width: 500px) {
-  .aboutContent .personTwo .img-personTwo img {
-    position: relative;
-    right: -11%;
+    height: 220px;
+    width: 220px;
   }
 }
 .aboutContent .personThree {
@@ -645,23 +631,16 @@ footer .privacy .p5 {
   justify-content: center;
 }
 .aboutContent .personThree .img-personThree img {
-  width: 80%;
+  width: 350px;
   border-radius: 50%;
   margin-bottom: 10px;
   margin-top: 30px;
   height: 350px;
-  position: relative;
-  right: -10%;
 }
 @media (max-width: 900px) {
   .aboutContent .personThree .img-personThree img {
-    height: 300px;
-  }
-}
-@media (max-width: 500px) {
-  .aboutContent .personThree .img-personThree img {
-    position: relative;
-    right: -11%;
+    height: 220px;
+    width: 220px;
   }
 }
 .aboutContent .personFour {
@@ -687,23 +666,16 @@ footer .privacy .p5 {
   justify-content: center;
 }
 .aboutContent .personFour .img-personFour img {
-  width: 80%;
+  width: 350px;
   border-radius: 50%;
   margin-bottom: 10px;
   margin-top: 30px;
   height: 350px;
-  position: relative;
-  right: -10%;
 }
 @media (max-width: 900px) {
   .aboutContent .personFour .img-personFour img {
-    height: 300px;
-  }
-}
-@media (max-width: 500px) {
-  .aboutContent .personFour .img-personFour img {
-    position: relative;
-    right: -11%;
+    height: 220px;
+    width: 220px;
   }
 }
 .aboutContent .personFive {
@@ -727,24 +699,16 @@ footer .privacy .p5 {
   justify-content: center;
 }
 .aboutContent .personFive .img-personFive img {
-  width: 90%;
+  width: 350px;
   border-radius: 50%;
   margin-bottom: 10px;
   margin-top: 30px;
   height: 350px;
-  position: relative;
-  right: -6%;
 }
 @media (max-width: 900px) {
   .aboutContent .personFive .img-personFive img {
-    height: 300px;
-  }
-}
-@media (max-width: 500px) {
-  .aboutContent .personFive .img-personFive img {
-    position: relative;
-    right: -11%;
-    width: 80%;
+    height: 220px;
+    width: 220px;
   }
 }
 .aboutContent .personSix {
@@ -768,23 +732,15 @@ footer .privacy .p5 {
   color: #f3e367;
 }
 .aboutContent .personSix .img-personSix img {
-  width: 90%;
+  width: 350px;
   border-radius: 50%;
   margin-bottom: 10px;
   margin-top: 30px;
   height: 350px;
-  position: relative;
-  right: -6%;
 }
 @media (max-width: 900px) {
   .aboutContent .personSix .img-personSix img {
-    height: 300px;
-  }
-}
-@media (max-width: 500px) {
-  .aboutContent .personSix .img-personSix img {
-    position: relative;
-    right: -11%;
-    width: 80%;
+    height: 220px;
+    width: 220px;
   }
 }
