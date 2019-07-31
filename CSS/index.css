@@ -486,3 +486,87 @@ footer .privacy .p5 {
     display: none;
   }
 }
+.aboutTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutTitle h1 {
+  color: #f3e367;
+  font-size: 6rem;
+  font-family: "Ubuntu", sans-serif;
+  border: 1px solid #f3e367;
+}
+.aboutTitle h3 {
+  color: #f3e367;
+  font-size: 4rem;
+  font-family: "Ubuntu", sans-serif;
+}
+.aboutContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.aboutContent h4 {
+  font-size: 1.6rem;
+}
+.aboutContent .personOne {
+  border: 1px solid #f3e367;
+  width: 33%;
+}
+.aboutContent .personOne h4 {
+  color: #f3e367;
+}
+.aboutContent .personOne h5 {
+  color: #f3e367;
+}
+.aboutContent .personTwo {
+  border: 1px solid #f3e367;
+  width: 33%;
+}
+.aboutContent .personTwo h4 {
+  color: #f3e367;
+}
+.aboutContent .personTwo h5 {
+  color: #f3e367;
+}
+.aboutContent .personThree {
+  border: 1px solid #f3e367;
+  width: 33%;
+}
+.aboutContent .personThree h4 {
+  color: #f3e367;
+}
+.aboutContent .personThree h5 {
+  color: #f3e367;
+}
+.aboutContent .personFour {
+  border: 1px solid #f3e367;
+  width: 33%;
+}
+.aboutContent .personFour h4 {
+  color: #f3e367;
+}
+.aboutContent .personFour h5 {
+  color: #f3e367;
+}
+.aboutContent .personFive {
+  border: 1px solid #f3e367;
+  width: 33%;
+}
+.aboutContent .personFive h4 {
+  color: #f3e367;
+}
+.aboutContent .personFive h5 {
+  color: #f3e367;
+}
+.aboutContent .personSix {
+  border: 1px solid #f3e367;
+  width: 33%;
+}
+.aboutContent .personSix h4 {
+  color: #f3e367;
+}
+.aboutContent .personSix h5 {
+  color: #f3e367;
+}
