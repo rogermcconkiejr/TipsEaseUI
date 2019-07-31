@@ -569,6 +569,17 @@ footer .privacy .p5 {
   position: relative;
   right: -10%;
 }
+@media (max-width: 900px) {
+  .aboutContent .personOne .img-personOne img {
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutContent .personOne .img-personOne img {
+    position: relative;
+    right: -11%;
+  }
+}
 .aboutContent .personTwo {
   width: 33%;
   display: flex;
@@ -599,6 +610,17 @@ footer .privacy .p5 {
   height: 350px;
   position: relative;
   right: -10%;
+}
+@media (max-width: 900px) {
+  .aboutContent .personTwo .img-personTwo img {
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutContent .personTwo .img-personTwo img {
+    position: relative;
+    right: -11%;
+  }
 }
 .aboutContent .personThree {
   width: 33%;
@@ -631,6 +653,17 @@ footer .privacy .p5 {
   position: relative;
   right: -10%;
 }
+@media (max-width: 900px) {
+  .aboutContent .personThree .img-personThree img {
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutContent .personThree .img-personThree img {
+    position: relative;
+    right: -11%;
+  }
+}
 .aboutContent .personFour {
   width: 33%;
   display: flex;
@@ -662,6 +695,17 @@ footer .privacy .p5 {
   position: relative;
   right: -10%;
 }
+@media (max-width: 900px) {
+  .aboutContent .personFour .img-personFour img {
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutContent .personFour .img-personFour img {
+    position: relative;
+    right: -11%;
+  }
+}
 .aboutContent .personFive {
   width: 33%;
   display: flex;
@@ -691,6 +735,18 @@ footer .privacy .p5 {
   position: relative;
   right: -6%;
 }
+@media (max-width: 900px) {
+  .aboutContent .personFive .img-personFive img {
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutContent .personFive .img-personFive img {
+    position: relative;
+    right: -11%;
+    width: 80%;
+  }
+}
 .aboutContent .personSix {
   width: 33%;
   display: flex;
@@ -719,4 +775,16 @@ footer .privacy .p5 {
   height: 350px;
   position: relative;
   right: -6%;
+}
+@media (max-width: 900px) {
+  .aboutContent .personSix .img-personSix img {
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .aboutContent .personSix .img-personSix img {
+    position: relative;
+    right: -11%;
+    width: 80%;
+  }
 }
