@@ -236,12 +236,20 @@
     flex-direction:column;
     justify-content:center;
     align-items:center;
+
+    @media @mobile{
+        font-size:3rem;
+    }
     h1{
         color:@yellow;
         font-size:7rem;
         font-family:@font1;
         border-top:2px solid @yellow;
         margin-top:25px;
+
+        @media @mobile{
+            font-size:3rem;
+        }
     }
     h3{
         color:@yellow;
@@ -249,6 +257,10 @@
         font-family:@font1;
         border-bottom:2px solid @yellow;
         margin-bottom:40px;
+
+        @media @mobile{
+            font-size:2.5rem;
+        }
     }
 }
 
@@ -265,6 +277,11 @@
         font-family:@font2;
     }
 
+    @media @mobile{
+        display:flex;
+        flex-direction:column;
+    }
+
     .personOne{
         
         width:33%;
@@ -272,6 +289,10 @@
         flex-direction:column;
         align-items:center;
         justify-content:center;
+
+        @media @mobile{
+            width:95%;
+        }
         
         .text-personOne{
  
@@ -307,6 +328,10 @@
         align-items:center;
         justify-content:center;
 
+        @media @mobile{
+            width:95%;
+        }
+
         h4{
             color:@yellow;
             display:flex;
@@ -340,6 +365,10 @@
         flex-direction:column;
         align-items:center;
         justify-content:center;
+
+        @media @mobile{
+            width:95%;
+        }
 
         h4{
             color:@yellow;
@@ -375,6 +404,10 @@
         align-items:center;
         justify-content:center;
 
+        @media @mobile{
+            width:95%;
+        }
+
         h4{
             color:@yellow;
             display:flex;
@@ -409,6 +442,10 @@
         align-items:center;
         justify-content:center;
 
+        @media @mobile{
+            width:95%;
+        }
+
         h4{
             color:@yellow;
         }
@@ -439,6 +476,10 @@
         flex-direction:column;
         align-items:center;
         justify-content:center;
+
+        @media @mobile{
+            width:95%;
+        }
 
         h4{
             color:@yellow;

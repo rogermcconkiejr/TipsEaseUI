@@ -492,6 +492,11 @@ footer .privacy .p5 {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 500px) {
+  .aboutTitle {
+    font-size: 3rem;
+  }
+}
 .aboutTitle h1 {
   color: #f3e367;
   font-size: 7rem;
@@ -499,12 +504,22 @@ footer .privacy .p5 {
   border-top: 2px solid #f3e367;
   margin-top: 25px;
 }
+@media (max-width: 500px) {
+  .aboutTitle h1 {
+    font-size: 3rem;
+  }
+}
 .aboutTitle h3 {
   color: #f3e367;
   font-size: 4rem;
   font-family: "Ubuntu", sans-serif;
   border-bottom: 2px solid #f3e367;
   margin-bottom: 40px;
+}
+@media (max-width: 500px) {
+  .aboutTitle h3 {
+    font-size: 2.5rem;
+  }
 }
 .aboutContent {
   display: flex;
@@ -519,12 +534,23 @@ footer .privacy .p5 {
   font-size: 1.9rem;
   font-family: "Varela Round", sans-serif;
 }
+@media (max-width: 500px) {
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .aboutContent .personOne {
   width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .aboutContent .personOne {
+    width: 95%;
+  }
 }
 .aboutContent .personOne .text-personOne h4 {
   color: #f3e367;
@@ -549,6 +575,11 @@ footer .privacy .p5 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .aboutContent .personTwo {
+    width: 95%;
+  }
 }
 .aboutContent .personTwo h4 {
   color: #f3e367;
@@ -576,6 +607,11 @@ footer .privacy .p5 {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .aboutContent .personThree {
+    width: 95%;
+  }
+}
 .aboutContent .personThree h4 {
   color: #f3e367;
   display: flex;
@@ -601,6 +637,11 @@ footer .privacy .p5 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .aboutContent .personFour {
+    width: 95%;
+  }
 }
 .aboutContent .personFour h4 {
   color: #f3e367;
@@ -628,6 +669,11 @@ footer .privacy .p5 {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .aboutContent .personFive {
+    width: 95%;
+  }
+}
 .aboutContent .personFive h4 {
   color: #f3e367;
 }
@@ -651,6 +697,11 @@ footer .privacy .p5 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .aboutContent .personSix {
+    width: 95%;
+  }
 }
 .aboutContent .personSix h4 {
   color: #f3e367;
